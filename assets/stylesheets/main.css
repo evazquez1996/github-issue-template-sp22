@@ -253,19 +253,22 @@ span.accent {
 }
 #siteNav ul > li {
   float: left;
-  margin:2.5em 0 0;
+  margin:2.5em 0 1.5em;
   padding: 0;
   position: relative;
 }
 #siteNav li a:link, #siteNav li a:visited{
   display: block;
-  padding: 0 25px;
-  border-right: 2px solid #3c6b92;
+  padding: 0 25px 30px;
   font: 1.1em Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #3c6b92;
   text-align: center;
   letter-spacing: .1em;
+}
+#siteNavDivider{
+  height: 40px;
+  border: 1px solid #3c6b92;
 }
 #siteNav li a.current, #siteNav li a.current:hover {
   color: #fff;
@@ -287,6 +290,7 @@ span.accent {
 }
 #siteNav li ul {
   position: absolute;
+  transform: translateY(30px);
   top: 30px;
   left: auto;
   display: none;
